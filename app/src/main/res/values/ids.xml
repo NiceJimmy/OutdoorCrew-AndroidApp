@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="edittext_dialog_id" type="id" />
+    <item name="edittext_dialog_endlish" type="id" />
+    <item name="edittext_dialog_korean" type="id" />
+    <item name="button_dialog_submit" type="id" />
+</resources>

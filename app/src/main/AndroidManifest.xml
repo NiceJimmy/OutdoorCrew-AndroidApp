@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="org.techtown.myrecyclerview">
+
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission
+        android:name="android.permission.MANAGE_DOCUMENTS"
+        tools:ignore="ProtectedPermissions" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:usesCleartextTraffic="true"
+        android:allowBackup="false"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        tools:ignore="GoogleAppIndexingWarning">
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyBlz1onqHbL1zEO008f9PggkB8UlJBNqIM" />
+
+        <activity android:name=".MainActivity" />
+        <activity android:name=".StartActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".ProfileActivity" />
+        <activity android:name=".Makeroom" />
+        <activity android:name=".RoomActivity2" />
+        <activity android:name=".SearchActivity" />
+        <activity android:name=".LoginActivity2" />
+        <activity android:name=".RegisterActivity" />
+        <activity android:name=".Main2Activity" />
+        <activity android:name=".MakeContents" />
+        <activity android:name=".HomeActivity" />
+        <activity android:name=".ReportActivity" />
+        <activity android:name=".EditActivity" />
+        <activity android:name=".EditContents" />
+        <activity android:name=".Main3Activity" />
+        <activity android:name=".ProfileActivity2" />
+        <activity
+            android:name=".PopActivity"
+            android:theme="@android:style/Theme.Dialog" />
+        <activity android:name=".Main4Activity" />
+        <activity android:name=".Pop2Activity"
+            android:theme="@android:style/Theme.Dialog" >
+
+        </activity>
+        <uses-library
+            android:name="org.apache.http.legacy"
+            android:required="false" />
+    </application>
+
+
+
+
+</manifest>
